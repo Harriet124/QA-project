@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/newsletter.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>News Letter</title>
+
+</head>
+
+<body>
+
+    <div class="parent-container">
+        <div class="left-container">
+            <h1 class="updated">Stay Updated!</h1>
+            <p class="content">Join 60,000+ product managers receiving monthly updates on:</p>
+            <ul class="listed">
+                <div class="checkBoxContainer"><img src="/images/check.png" alt="check box">
+                    <li>Product discovery and building what matters</li>
+                </div>
+                <div class="checkBoxContainer"><img src="/images/check.png" alt="check box">
+                    <li>Measuring to ensure updates are a success</li>
+                </div>
+                <div class="checkBoxContainer" id="muchMore"><img src="/images/check.png" alt="check box">
+                    <li>And much more</li>
+                </div>
+            </ul>
+            <form class="form-container" action="/confirmation.html">
+                <div class="formGroup">
+                    <div class="input-header">
+                        <label for="email" class="email">Email address</label>
+                        <div class="error-container"></div>
+                    </div>
+                    <input type="text" id="email" name="email" autocomplete="off" placeholder="email@company.com">
+
+
+                </div>
+                <button type="submit" class="button">Subscribe to monthly newsletter</button>
+            </form>
+
+        </div>
+        <div class="right-container">
+            <div class="img">
+            <img src="/images/" class="image" alt="">
+
+            </div>
+        </div>
+        <!-- <div class="hidden-right-container" style="display: none;">
+            <div class="img">
+            <img src="./assets/images/Mask group.png" class="image" alt="">
+
+            </div>
+        </div> -->
+
+    </div>
+
+
+
+
+
+    <script src="/newsletter.js"></script>
+</body>
+
+</html>
